@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://photography-studio-backend.onrender.com",
+  baseURL: "https://photography-studio-backend.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
